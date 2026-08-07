@@ -14,4 +14,4 @@ conflicts with the MyST syntax for citations (`@citationId`).
 We accept multiple syntaxes for GitHub user mentions:
 
 * Citation with prefix: `@gh:username`
-* Role: ``{gh}`username```
+* Role: `` {gh}`username` ``
