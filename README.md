@@ -34,8 +34,12 @@ project:
 ### Configure the style
 
 > [!NOTE]
-> This is a workaround for what I believe are MyST limitations which make it very
-> difficult to style the GitHub logo icon based on the currently active theme.
+>
+> This is a workaround for what I believe are MyST limitations which make it impossible
+> (?) to style the GitHub logo icon based on the currently active theme without custom
+> styling in the site that consumes the plugin.
+>
+> See: https://github.com/jupyter-book/mystmd/issues/2700
 
 Ensure your project has a stylesheet configured:
 
