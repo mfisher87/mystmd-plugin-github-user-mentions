@@ -60,3 +60,16 @@ And include this rule in your stylesheet:
 }
 ```
 
+
+## vs. [myst-contrib/myst-github](https://github.com/myst-contrib/myst-github)
+
+This plugin makes some intentional tradeoffs:
+
+* This plugin doesn't check if mentioned GitHub users exist, and it doesn't fetch
+  avatars.
+  The benefit of this tradeoff is that it doesn'trequire any secrets to avoid
+  rate-limiting.
+* This plugin uses explicit syntax (a role and a citation prefix) to reduce possibility
+  of collision with citation IDs and confusing results for the user.
+  The drawback of this tradeoff is GitHub user mentions don't work exactly like they do
+  on GitHub.
